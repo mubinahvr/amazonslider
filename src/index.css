@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel .thumb {
+    display: none !important;
+}
+
+.carousel .control-prev.control-arrow {
+    color: black !important;
+}
+
+
+.carousel.carousel-slider .control-arrow {
+    color: black !important;
+    background-color: lightcoral !important;
+}
+
+.carousel {
+    color: black !important;
+}
+
+.carousel .control-dots .dot {
+    display: none !important
+}
+
+.carousel .carousel-status {
+    display: none !important
+}
+
+.image-divs2 {
+margin: 2% 0%!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+
+}
+
+.details-div{
+  
+justify-content: flex-end;
+flex-direction: column;
+margin: 2%;
+}
+.image-divs {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.card-divs {
+margin: 1% 0%;
+    height: 400px;
+    border: 1px solid #fff;
+    width: 22%;
+    background-color: #fff;
+    padding: 2% 1%;
+
+}
+.card-divs3 {
+    margin: 1% 0%;
+    height: 400px;
+    
+    width: 22%;
+   
+   
+
+}
+.card-divs2 {
+    background-color: #fff;
+    height: 150px !important;
+    width: 100%;
+    padding: 8%;
+    margin-bottom: 2%;
+}
+.signinbtn{
+    background: #FCD200;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0% 5% 0%;
+    padding: 1% 0%;
+    
+}
